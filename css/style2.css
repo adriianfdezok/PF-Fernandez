@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    display:block;
+}
+body{
+    height: 100vh;
+    background-color: #0B0B0B;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+header{
+    height: 15vh;
+}
+
+main{
+    height: 75vh;
+}
+
+footer{
+    height: 10vh;
+}
+
+.header{
+    
+background: url("../assets/image/bg_header.jpg") no-repeat center;
+height: 75%;
+background-size: cover;
+}
+/* inicio header publicidad */
+.ad{
+    background-color: black !important;
+    justify-content: flex-end;
+}
+
+.logitech{
+    width: 307px;
+    height: 377px;
+    background: url("../assets/image/Publicidad/amd_white.png") no-repeat center;
+    background: cover;
+}
+
+
+
+.razer{
+    background: url("../assets/image/Publicidad/razer.png") no-repeat center;
+    background: cover;
+    width: 302px;
+    height: 367px;
+    border-radius: 3px;
+
+    flex-shrink: 0;
+}
+.parallax-container {
+    background-size: cover;
+    min-height: 125px;}
+/* fin de publicidad */
+.--bs-navbar-toggler-font-size{
+    color:#ffffff;
+}
+.video-container {
+    position: relative;
+    background-color: #0b0b0ba8;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5) !important;
+  }
+  
+  
+
+
+
+
+.text_direct{
+    color: #FFF;
+    font-size: 50px;
+    font-family: bebas Neue;
+}
+
+.line_direct{
+    width: 83px,
+    height: 8px,
+    border-radius: 50px,
+    background: #3D1198,
+
+}
+
+
+
+
+.btn-teams{
+    width: 308px;
+    height: 54px;
+    
+    border-radius: 10px;
+    border: 1px solid #4711B4;
+    background: linear-gradient(112deg, #310A82 11.04%, #A23CF6 98.75%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
+    background-color: #0B0B0B;
+    
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 25px 0;
+    color: var(--dark);
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+
+
+}
+
+
+
+
+.notice-card {
+  overflow: hidden,
+  border-radius: 13px,
+  border: 5px solid #3D1198,
+  background: #100f0f,
+  width: 38vh,
+  height: 53vh,
+  
+}
+
+.a335{
+  overflow: hidden;
+  color: #7a7a7a;
+  border-radius: 13px;
+  border: 3px solid #3D1198;
+  background: #ffffff;
+  max-width: 400px;
+  min-height: 450px;
+
+
+}
+
+
+
+.notice-circle {
+  overflow: hidden;
+
+    border-radius: 52px;
+    background: #290E61;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.notice-circle:hover {
+  overflow: hidden;
+
+    transition: transform .10s ease-in-out;
+    transform: rotate(80deg);
+  }
+
+ 
+.title-notice{
+  overflow: hidden;
+
+    font-size:50px;
+
+}
+/* 
+.text-notice{
+    color: #FFF;
+    font-size: 50px;
+    font-family: bebas Neue;
+    
+}
+*/
+.line_notice{
+  overflow: hidden;
+
+    width: auto;
+    height: 5px;
+    border-radius: 50px;
+    background: #3D1198;
+
+} 
+
+.line{
+  overflow: hidden;
+
+  width: 83px;
+  height: 8px;
+  border-radius: 50px;
+  background: #3D1198;
+
+}
+.bg_torneo {
+  border: 3px solid #4D12C5,
+  background: #1F0A4A,
+  overflow-x: hidden,
+    padding: 1.3rem,
+  padding-top: 1.40%,
+  padding-bottom: 2.30%,
+
+
+}
+
+.table-dark {
+  --bs-table-color: #fff;
+  --bs-table-bg: #1F0A4A;
+  --bs-table-border-color: #1F0A4A;
+  --bs-table-striped-bg: #2c3034;
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: #373b3e;
+  --bs-table-active-color: #ebe6e6;
+  --bs-table-hover-bg: #323539;
+  --bs-table-hover-color: #fff;
+  color: var(--bs-table-color);
+  border-color: var(--bs-table-border-color);
+  font-size: 29px;
+  padding: 20px 20px 5px;
+  border-radius: 20px solid;
+}
+
+
+.table-dark .p{
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+  .bg_torneo2 {
+    border: 4.5px solid #4D12C5;
+    background: #1F0A4A;
+    padding-top: 2.40%;
+    padding-bottom: 1.40%;
+    overflow-x: hidden;
+    
+    
+
+  }
+  
+
+  .mybtn-twitch {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4711B4;
+    --bs-btn-border-color: #4711B4;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d7c90b;
+    --bs-btn-hover-border-color:linear-gradient(112deg, #310A82 11.04%, #A23CF6 98.75%)
+}
+
+
+
+
+
+  /* bg_torneo  cloud  cards */
+  .mini-cloud9{
+    width: 199px,
+    overflow: hidden,
+    height: 54p,
+    background: #290E61,
+  }
+
+    .team-enemy{
+      width: 219px;
+      height: 48px;
+          overflow: hidden;
+
+      background: #290E61;
+  }
+
+  .bgfoother{
+
+    background: linear-gradient( #290E61 0.20%, #402871 0.01%, #29066e 100%, #2c3034 0.4%);
+  }
+
+  .circle-week{
+    width: 5px;
+    height: 5px;
+    border-radius: 19px;
+    background: #E73838;
+    animation: blink 3s infinite;
+
+
+  }
+
+  
+    /* animacion del circulo */
+  @keyframes blink {
+    0% {
+      opacity: 2;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+  }
+ /*  fin animacion del circulo */
+
+  .btn-outline-info{
+    color: #4C1CAE;
+  }
+
+
+  .__i0004{
+    width: 206px;
+  height: 205px;
+  
+  }
+
+  .table-responsive{
+    padding:20px;
+    padding-top: 15px;
+    border-radius: 10px;
+  }
+  .card-img:hover .overlay {
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: background-color 0.5s;
+  }
